@@ -1,6 +1,6 @@
 <?php
 
-namespace Butschster\Cycle\Entity\Relations;
+namespace Laravel\Cycle\Entity\Relations;
 
 use Cycle\ORM\Promise\MaterializerInterface;
 use Cycle\ORM\Promise\Materizalizer\EvalMaterializer;

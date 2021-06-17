@@ -23,11 +23,12 @@ composer require butschster/cycle-orm
 ```
 
 Optionally you can register the EntityManager, Transaction and/or ORM facade:
+
 ```php
-'DatabaseManager' => Butschster\Cycle\Facades\DatabaseManager::class,
-'Transaction' => Butschster\Cycle\Facades\Transaction::class,
-'ORM' => Butschster\Cycle\Facades\ORM::class,
-'EntityManager' => Butschster\Cycle\Facades\EntityManager::class,
+'DatabaseManager' => Laravel\Cycle\Facades\DatabaseManager::class,
+'Transaction' => Laravel\Cycle\Facades\Transaction::class,
+'ORM' => Laravel\Cycle\Facades\ORM::class,
+'EntityManager' => Laravel\Cycle\Facades\EntityManager::class,
 ```
 
 ### Env variables
@@ -94,16 +95,17 @@ The EntityManager is the central access point to ORM functionality. It can be us
 
 #### Using the EntityManager
 You can use the facade,  container or Dependency injection to access the EntityManager methods
+
 ```php
 EntityManager::persist($entity);
 
 // Or
 
-app(\Butschster\Cycle\Contracts\EntityManager::class)->persist($entity);
+app(\Laravel\Cycle\Contracts\EntityManager::class)->persist($entity);
 
 // Or
 
-use Butschster\Cycle\Contracts\EntityManager;
+use Laravel\Cycle\Contracts\EntityManager;
 
 class ExampleController extends Controller
 {
@@ -238,10 +240,11 @@ class User implements Authenticatable
 ```
 
 #### Repository
+
 ```php
 namespace App;
 
-use Butschster\Cycle\Repository;
+use Laravel\Cycle\Repository;
 
 class UserRepository extends Repository
 {
@@ -254,10 +257,11 @@ class UserRepository extends Repository
 ```
 
 #### Create user
+
 ```php
 use Cycle\ORM\ORMInterface;
-use Butschster\Cycle\Facades\ORM;
-use Butschster\Cycle\Facades\EntityManager;
+use Laravel\Cycle\Facades\ORM;
+use Laravel\Cycle\Facades\EntityManager;
 
 $user = new User();
 
@@ -275,9 +279,10 @@ EntityManager::persist($user);
 ```
 
 #### Update user
+
 ```php
-use Butschster\Cycle\Facades\ORM;
-use Butschster\Cycle\Facades\EntityManager;
+use Laravel\Cycle\Facades\ORM;
+use Laravel\Cycle\Facades\EntityManager;
 
 $repository = ORM::getRepository(User::class);
 $user = $repository->findByPK('5c9e177b0a975a6eeccf5960');
@@ -291,9 +296,10 @@ EntityManager::persist($user);
 ```
 
 #### Delete user
+
 ```php
-use Butschster\Cycle\Facades\ORM;
-use Butschster\Cycle\Facades\EntityManager;
+use Laravel\Cycle\Facades\ORM;
+use Laravel\Cycle\Facades\EntityManager;
 
 $repository = ORM::getRepository(User::class);
 $user = $repository->findByPK('5c9e177b0a975a6eeccf5960');

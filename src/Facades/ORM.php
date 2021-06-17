@@ -1,6 +1,6 @@
 <?php
 
-namespace Butschster\Cycle\Facades;
+namespace Laravel\Cycle\Facades;
 
 use Cycle\ORM\ORMInterface;
 use Illuminate\Support\Facades\Facade;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Butschster\Cycle\Commands;
+namespace Laravel\Cycle\Commands;
 
 use Illuminate\Console\Command;
-use Butschster\Cycle\Contracts\SchemaManager;
+use Laravel\Cycle\Contracts\SchemaManager;
 
 class RefreshSchema extends Command
 {

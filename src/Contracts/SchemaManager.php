@@ -1,6 +1,6 @@
 <?php
 
-namespace Butschster\Cycle\Contracts;
+namespace Laravel\Cycle\Contracts;
 
 use Cycle\ORM\Schema;
 

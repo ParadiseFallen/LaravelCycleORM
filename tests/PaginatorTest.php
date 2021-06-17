@@ -2,7 +2,7 @@
 
 namespace Butschster\Tests;
 
-use Butschster\Cycle\Paginator;
+use Laravel\Cycle\Paginator;
 use Illuminate\Support\Collection;
 
 class PaginatorTest extends TestCase

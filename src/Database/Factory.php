@@ -1,6 +1,6 @@
 <?php
 
-namespace Butschster\Cycle\Database;
+namespace Laravel\Cycle\Database;
 
 use Cycle\ORM\ORMInterface;
 use Faker\Generator as Faker;

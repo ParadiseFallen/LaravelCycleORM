@@ -1,6 +1,6 @@
 <?php
 
-namespace Butschster\Cycle\Auth;
+namespace Laravel\Cycle\Auth;
 
 use Cycle\ORM\ORMInterface;
 use Cycle\ORM\RepositoryInterface;

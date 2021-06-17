@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Butschster\Cycle\Migrations;
+namespace Laravel\Cycle\Migrations;
 
 use Spiral\Core\Container;
 use Spiral\Core\FactoryInterface;

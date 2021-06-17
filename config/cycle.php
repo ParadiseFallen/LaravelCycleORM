@@ -71,8 +71,8 @@ return [
         ],
 
         'defaults' => [
-            Schema::MAPPER => Butschster\Cycle\Mapper::class,
-            Schema::REPOSITORY => Butschster\Cycle\Repository::class,
+            Schema::MAPPER => Laravel\Cycle\Mapper::class,
+            Schema::REPOSITORY => Laravel\Cycle\Repository::class,
             Schema::SOURCE => Cycle\ORM\Select\Source::class,
         ],
     ],

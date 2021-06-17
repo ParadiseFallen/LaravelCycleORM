@@ -1,6 +1,6 @@
 <?php
 
-namespace Butschster\Cycle;
+namespace Laravel\Cycle;
 
 use Cycle\ORM\Select;
 use Cycle\ORM\Select\Repository as BaseRepository;

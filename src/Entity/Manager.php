@@ -1,8 +1,8 @@
 <?php
 
-namespace Butschster\Cycle\Entity;
+namespace Laravel\Cycle\Entity;
 
-use Butschster\Cycle\Contracts\EntityManager;
+use Laravel\Cycle\Contracts\EntityManager;
 use Cycle\ORM\ORMInterface;
 use Illuminate\Support\Collection;
 

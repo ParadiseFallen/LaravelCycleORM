@@ -1,8 +1,8 @@
 <?php
 
-namespace Butschster\Cycle\Facades;
+namespace Laravel\Cycle\Facades;
 
-use Butschster\Cycle\Contracts\EntityManager as EntityManagerContract;
+use Laravel\Cycle\Contracts\EntityManager as EntityManagerContract;
 use Illuminate\Support\Facades\Facade;
 
 class EntityManager extends Facade

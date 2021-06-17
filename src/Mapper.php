@@ -1,6 +1,6 @@
 <?php
 
-namespace Butschster\Cycle;
+namespace Laravel\Cycle;
 
 use Cycle\ORM\Mapper\Mapper as BaseMapper;
 

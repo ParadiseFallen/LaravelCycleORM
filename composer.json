@@ -1,5 +1,5 @@
 {
-    "name": "butschster/cycle-orm",
+    "name": "laravel/cycle-orm",
     "description": "Cycle ORM integration for the Laravel Framework",
     "keywords": [
         "laravel",
@@ -11,12 +11,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Pavel Buchnev",
-            "email": "butschster@gmail.com"
+            "name": "FallenParadise",
+            "email": "yjokerch@gmail.com"
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4|^8.0",
         "illuminate/config": "^7.0|^8.0",
         "illuminate/database": "^7.0|^8.0",
         "illuminate/support": "^7.0|^8.0",
@@ -30,24 +30,23 @@
         "cycle/schema-builder": "^1.1"
     },
     "require-dev": {
-        "fzaninotto/faker": "^1.9.1",
         "mockery/mockery": "^1.0",
         "phpunit/phpunit": "^7.0|^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
-            "Butschster\\Cycle\\": "src/"
+            "Laravel\\Cycle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Butschster\\Tests\\": "tests/"
+            "Laravel\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Butschster\\Cycle\\Providers\\LaravelServiceProvider"
+                "Laravel\\Cycle\\Providers\\LaravelCycleServiceProvider"
             ]
         }
     },

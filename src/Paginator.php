@@ -1,6 +1,6 @@
 <?php
 
-namespace Butschster\Cycle;
+namespace Laravel\Cycle;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\AbstractPaginator;

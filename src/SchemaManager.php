@@ -1,6 +1,6 @@
 <?php
 
-namespace Butschster\Cycle;
+namespace Laravel\Cycle;
 
 use Cycle\Annotated;
 use Cycle\Migrations\GenerateMigrations;
