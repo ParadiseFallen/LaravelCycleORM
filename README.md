@@ -52,7 +52,7 @@ DB_SCHEMA_CACHE_DRIVER=file # DB schema cache driver
 
 Publish the config file.
 ```shell script
-php artisan vendor:publish --provider="Butschster\Cycle\Providers\LaravelServiceProvider" --tag=config
+php artisan vendor:publish --provider="Laravel\Cycle\Providers\LaravelCycleServiceProvider" --tag=config
 ```
 
 #### Configure Databases
